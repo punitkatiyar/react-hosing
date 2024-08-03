@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    padding: 2% 5%;
+    background-color: #404040;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.head ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.head ul li {
+    list-style: none;
+}
+
+.head ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    color: tomato !important;
+}
+
+.mid {
+    width: 90%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 1%;
+}
+
+.banner {
+    width: 100%;
+    height: 70vh;
+}
+
+p {
+    text-align: justify;
+}
